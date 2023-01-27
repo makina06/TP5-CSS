@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Montserrat Thin, Montserrat Medium;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.5rem;
+}
+ul {
+    list-style: none;
+}
+header {
+    padding: 2rem;
+    background-image: url(./assets/img/bg.jpg);
+    color: aliceblue;
+    text-align: center;
+}
+.main-header {
+}
+#logo {
+    width: 100%;
+}
+.main-header #logo img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+header h1 {
+    text-transform: uppercase;
+}
+header button {
+    background-color: transparent;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid aliceblue;
+}
+header button:hover {
+    background-color: aliceblue;
+    color: black;
+}
