@@ -12,6 +12,7 @@ body {
 nav {
     text-align: center;
     font-size: 1.5rem;
+    display: none;
 }
 ul {
     list-style: none;
@@ -35,6 +36,7 @@ header {
 header h1 {
     text-transform: uppercase;
     font-size: 1.6rem;
+    line-height: 2rem;
 }
 header button {
     background-color: transparent;
@@ -70,6 +72,7 @@ header button:hover {
     align-items: center;
     text-align: center;
     color: aliceblue;
+    margin-bottom: 30px;
 }
 .icon-part h3 {
     text-transform: uppercase;
@@ -97,6 +100,7 @@ header button:hover {
 
 .left-part h2 {
     letter-spacing: 7px;
+    line-height: 2rem;
 }
 .left-part p {
     font-weight: bold;
@@ -113,5 +117,36 @@ header button:hover {
     margin-top: 50px;
 }
 
-.mn-pic img {
+.main-news-container div {
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    display: none;
+}
+.contact-medias {
+    background-color: black;
+    color: aliceblue;
+}
+.medias-text,
+.medias-logos {
+    display: none;
+}
+footer {
+    padding: 20px;
+}
+
+footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer img {
+    max-width: 90%;
 }
