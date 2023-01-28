@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif, Montserrat Thin, Montserrat Medium;
+    line-height: 1.2rem;
 }
 
 nav {
@@ -33,6 +34,7 @@ header {
 }
 header h1 {
     text-transform: uppercase;
+    font-size: 1.6rem;
 }
 header button {
     background-color: transparent;
@@ -46,4 +48,70 @@ header button {
 header button:hover {
     background-color: aliceblue;
     color: black;
+}
+
+.header-text p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+.icon-part {
+    padding: 50px 10px;
+    background-color: black;
+}
+.icon-part-container {
+}
+
+.list-icon-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.icon-part h3 {
+    text-transform: uppercase;
+}
+.icon-part button {
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.news-part {
+    padding: 70px 35px;
+}
+.header-news {
+    text-align: center;
+}
+.main-news {
+}
+.main-news-container {
+    text-align: center;
+}
+
+.left-part h2 {
+    letter-spacing: 7px;
+}
+.left-part p {
+    font-weight: bold;
+}
+.right-part button {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: 2px solid rgb(204, 190, 190);
+}
+
+.main-news {
+    margin-top: 50px;
+}
+
+.mn-pic img {
 }
