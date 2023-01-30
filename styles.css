@@ -173,7 +173,7 @@ footer img {
 
 /*Media Queries Laptop/Desktop*/
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 1000px) {
   nav {
     display: contents;
   }
@@ -200,11 +200,43 @@ footer img {
 
   .icon-part-container {
     display: flex;
+    padding: 0 100px;
+    justify-content: center;
+  }
+  .list-icon-part {
+    margin: 0 50px;
   }
   .list-icon-part .lip-logo img {
     max-width: 100%;
   }
   .news-part {
-    display: ;
+    position: relative;
+  }
+  .header-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-news-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .main-news-container > div {
+    max-width: 33.3%;
+    text-align: left;
+  }
+  .main-news-container div > img,
+  h4,
+  p,
+  .link {
+    padding: 5px 50px;
+  }
+
+  .main-news-container .link {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 60px;
   }
 }
