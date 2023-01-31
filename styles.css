@@ -195,8 +195,8 @@ footer img {
     padding: 0 40px;
     justify-content: center;
   }
-  .list-icon-part {
-    width: 33.33%;
+  .list-icon-container > div {
+    flex: 1;
   }
   .list-icon-part .lip-logo img {
     max-width: 100%;
@@ -214,18 +214,20 @@ footer img {
 
   .main-news-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 80px;
+    padding: 0 100px;
   }
   .main-news-container > div {
-    max-width: 33.3%;
+    flex: 2;
     text-align: left;
   }
   .main-news-container div > img,
   h4,
   p,
   .link {
-    padding: 5px 70px;
+    /* padding: 5px 70px; */
   }
 
   .main-news-container .link {
